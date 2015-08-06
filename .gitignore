@@ -1,0 +1,5 @@
+# Ignore Tower license file
+tower-license
+
+# Ignore Vagrant working directories
+.vagrant/
