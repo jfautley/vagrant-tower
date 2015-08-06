@@ -14,6 +14,7 @@ directory as the Vagrantfile itself, containing the contents of the Ansible
 Tower [installation tarball](http://releases.ansible.com/ansible-tower/setup/).
 
 You can copy-and-paste this command to make life easy:
+
 `curl -s http://releases.ansible.com/ansible-tower/setup/ansible-tower-setup-latest.tar.gz | tar -C installer --strip-components=1 -zxvf -`
 
 ## Configuration Options
@@ -28,6 +29,6 @@ checkout, and the license file will be automatically applied after the
 installation.
 
 ### TODO
-[ ] Automatically download the correct Tower installation tarball
-[ ] Provide some "client" systems for Tower to talk to
-[ ] Setup a 'demo' environment directly in Tower using the API?
+- [ ] Automatically download the correct Tower installation tarball
+- [ ] Provide some "client" systems for Tower to talk to
+- [ ] Setup a 'demo' environment directly in Tower using the API?
